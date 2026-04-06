@@ -1,7 +1,7 @@
 # Research Documentation for `multiclass_image_classification_runnable.ipynb`
 
 ## Abstract
-This document provides a research-style technical interpretation of the notebook [`multiclass_image_classification_runnable.ipynb`](/home/r00t/code/machine-learning/multi-class-modeling/multiclass_image_classification_runnable.ipynb). The notebook implements an end-to-end convolutional neural network pipeline for multi-class image classification on small `16 x 16` RGB images. Its central design philosophy is to preserve `ReLU` as the activation function throughout the model while improving generalization through careful preprocessing, residual learning, modern optimization, and disciplined validation.  
+This document provides a research-style technical interpretation of the notebook [`multiclass_image_classification_runnable.ipynb`](multiclass_image_classification_runnable.ipynb). The notebook implements an end-to-end convolutional neural network pipeline for multi-class image classification on small `16 x 16` RGB images. Its central design philosophy is to preserve `ReLU` as the activation function throughout the model while improving generalization through careful preprocessing, residual learning, modern optimization, and disciplined validation.  
 
 The pipeline combines:
 - reproducible training controls,
@@ -678,7 +678,7 @@ In that sense, the notebook reads less like an ad hoc trial-and-error script and
 
 ## 10. Recommended File Association
 This document is the companion research note for:
-- [`multiclass_image_classification_runnable.ipynb`](/home/r00t/code/machine-learning/multi-class-modeling/multiclass_image_classification_runnable.ipynb)
+- [`multiclass_image_classification_runnable.ipynb`](multiclass_image_classification_runnable.ipynb)
 
 Recommended companion artifacts:
 - single-model predictions: `my_cnn_results_improved_v2.csv`
